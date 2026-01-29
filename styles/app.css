@@ -1,0 +1,38 @@
+
+/* Default Body Text & UI Labels */
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Headings / Titles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Buttons / CTA */
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation & Specific UI elements keep Inter */
+nav, input, select, textarea, label {
+  font-family: 'Inter', sans-serif;
+}
+
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 10px;
+}

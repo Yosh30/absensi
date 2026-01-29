@@ -1,0 +1,5 @@
+{
+  "name": "Voice of Soul Choir",
+  "description": "A comprehensive mobile-first attendance management app for Voice of Soul Choir, featuring scheduling, polling, voice part classification (SATB), and admin controls.",
+  "requestFramePermissions": []
+}
